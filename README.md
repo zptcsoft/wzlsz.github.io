@@ -11,8 +11,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 学习社区
 
-# [极客学院](http://www.jikexueyuan.com)
-## [慕课网](http://www.imooc.com/)
+[极客学院](http://www.jikexueyuan.com)
+[慕课网](http://www.imooc.com/)
 
 - Bulleted
 - List
