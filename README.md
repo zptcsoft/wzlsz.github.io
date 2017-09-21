@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to My Home Page!!!    ^-^
 
-You can use the [editor on GitHub](https://github.com/wzlsz/wzlsz.github.io) to maintain and preview the content for your website in Markdown files.
+You can use the [庆哥的网站](https://zptcsoft.github.io) to learn more konwladge.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[my github page](https://wzlsz.github.io/)
 
 ### Markdown
 
@@ -11,7 +11,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 学习社区
 
-【极客学院】（https://www.jikexueyuan.com）
+[极客学院](https://www.jikexueyuan.com)
 [慕课网](http://www.imooc.com/)
 
 - Bulleted
