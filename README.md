@@ -6,7 +6,7 @@ You can use the [庆哥的网站](https://zptcsoft.github.io) to learn more konw
 ###学习社区:[极客学院](https://www.jikexueyuan.com)   [慕课网](https://www.imooc.com/)
 
 ### 学习资源
-[js](https://javascript.ruanyifeng.com)
+[js](http://javascript.ruanyifeng.com/)
 [IT资源社区](http://download.csdn.net/)
 ### Jekyll Themes
 
