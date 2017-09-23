@@ -7,8 +7,8 @@ You can use the [庆哥的网站](https://zptcsoft.github.io) to learn more konw
            [慕课网](https://www.imooc.com/)
 
 ### 学习资源
-           [js](http://javascript.ruanyifeng.com/)
-           [IT资源社区](http://download.csdn.net/)
+   [js](http://javascript.ruanyifeng.com/)
+   [IT资源社区](http://download.csdn.net/)
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wzlsz/wzlsz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
