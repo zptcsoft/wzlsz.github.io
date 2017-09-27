@@ -1,6 +1,6 @@
-## 仲
+## 主要官网
 
-You can use the [庆哥的网站](https://zptcsoft.github.io) to learn more konwladge.
+[庆哥的网站](https://zptcsoft.github.io)
 
 [my github page](https://github.com/wzlsz)
 ###学习社区:[极客学院](https://www.jikexueyuan.com)
