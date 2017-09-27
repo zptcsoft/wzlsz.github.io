@@ -7,7 +7,7 @@
    [js](http://javascript.ruanyifeng.com/)
    [IT资源社区](http://download.csdn.net/)
 ### 案例
-   [特效1](https://wzlsz.github.io/wzlsz/demo3/index.html)
+   [猜数字效果](https://wzlsz.github.io/wzlsz/demo3/index.html)
    [抽奖游戏](https://wzlsz.github.io/wzlsz/LuckDrawSystem/index.html)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wzlsz/wzlsz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
