@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body{
+				position: relative;
+			}
+			.wrapper{
+				border: 1px solid #000;
+				width: 1200px;
+				height: 220px;
+				position: absolute;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+			.wrapper h2{
+				text-align: center;
+			}
+			.wrapper #ChouJiang{
+				width:100px;
+				height: 40px;
+				position: absolute;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+			/*奖项标签*/
+			.wrapper .prize{
+				/*border: 1px solid #000;*/
+				list-style: none;
+				height: 80px;
+				position: absolute;
+				top: 100px;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+			.wrapper .prize #prize{
+				margin-bottom: 7px;
+			}
+			.wrapper .prize #prize label{
+				margin-right: 20px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h2>JavaScript抽奖系统</h2>
+			<input type="button" name="ChouJiang" id="ChouJiang" value="抽奖" />
+			<ul class="prize">
+				<li id="prize"><label for="#">一等奖</label>    <input type="text" name="one" id="pri1"/></li>
+				<li id="prize"><label for="#">二等奖 </label>   <input type="text" name="two" id="pri2"/><input type="text" name="two" id="pri2_2"/></li>
+				<li id="prize"><label for="#">三等奖 </label>   <input type="text" name="three" id="pri3"/><input type="text" name="three" id="pri3_2"/><input type="text" name="three" id="pri3_3"/></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var oBtn=document.getElementById("ChouJiang");
+			var oOne=document.getElementById("pri1");
+			var oTwo=document.getElementById("pri2");
+			var oTwo_2=document.getElementById("pri2_2");
+			var oThree=document.getElementById("pri3");
+			var oThree_2=document.getElementById("pri3_2");
+			var oThree_3=document.getElementById("pri3_3");
+			var oStr="一 二 三 四 五 六 七 八 九 十";
+			var oString=oStr.split(" ");
+			//存放已中奖者的下标
+			var oX=[];
+		    var i,j,n=5;
+            oBtn.addEventListener('click',Prize);
+            function Prize () {
+            	oX[0]=Math.floor(Math.random()*10);
+            	oOne.value=oString[oX[0]];
+            	for(j=1;j<6;j++){
+            		oX[j]=Math.floor(Math.random()*10);
+            		for(i=0;i<oX.length-1;i++){
+            			if(oX[i]==oX[j]){
+            				oX[j]=Math.floor(Math.random()*10);
+            				i=-1;
+            			}
+            		}
+            	}
+            	oTwo.value=oString[oX[1]];
+            	oTwo_2.value=oString[oX[2]];
+            	oThree.value=oString[oX[3]];
+            	oThree_2.value=oString[oX[4]];
+            	oThree_3.value=oString[oX[5]];
+            	//splice:清空对应的数组
+            	oX.splice(0,oX.length);
+            }
+
+		</script>
+	</body>
+</html>
