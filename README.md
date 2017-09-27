@@ -9,7 +9,7 @@ You can use the [庆哥的网站](https://zptcsoft.github.io) to learn more konw
 ### 学习资源
    [js](http://javascript.ruanyifeng.com/)
    [IT资源社区](http://download.csdn.net/)
-### Jekyll Themes
+### 案例
    [特效1](https://wzlsz.github.io/wzlsz/demo3/index.html)
    [抽奖游戏](https://wzlsz.github.io/wzlsz/LuckDrawSystem/index.html)
 
